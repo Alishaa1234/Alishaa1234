@@ -141,7 +141,7 @@ const alisha = {
 <br><br>
 Production-grade DSA & interview prep platform with Monaco Editor, 1v1 real-time code duels (ELO-rated), AI mock interviews from resume PDFs, and an ATS resume analyzer using TF-IDF + Cosine Similarity NLP pipeline.
 <br><br>
-<a href="https://github.com/Alishaa1234" target="_blank">
+<a href="https://github.com/Alishaa1234/CodeArena" target="_blank">
 <img src="https://img.shields.io/badge/Code-000000?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 </div>
