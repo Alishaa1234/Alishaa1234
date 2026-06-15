@@ -108,17 +108,17 @@ const alisha = {
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Alishaa1234&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alishaa1234&layout=compact&theme=radical"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Alishaa1234&show_icons=true&theme=radical&count_private=true&hide=contribs&rank_icon=github"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alishaa1234&layout=compact&theme=radical&langs_count=8"/>
 
 </div>
 
 <div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Alishaa1234&theme=radical" alt="GitHub Streak"/>
+<img src="https://streak-stats.demolab.com/?user=Alishaa1234&theme=radical&hide_border=false" alt="GitHub Streak"/>
 </div>
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Alishaa1234&theme=react-dark&bg_color=20232a&hide_border=true" alt="Activity Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Alishaa1234&theme=react-dark&bg_color=20232a&hide_border=true&area=true" alt="Activity Graph"/>
 </div>
 
 ---
