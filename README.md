@@ -98,6 +98,8 @@ const alisha = {
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![OpenRouter](https://img.shields.io/badge/OpenRouter-6E56CF?style=for-the-badge&logo=openai&logoColor=white)
+![Judge0](https://img.shields.io/badge/Judge0-1769AA?style=for-the-badge&logo=codeforces&logoColor=white)
 
 ### 🎨 Tools & Platforms
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -141,12 +143,20 @@ const alisha = {
 <div align="center">
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
 <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/Express-404D59?style=for-the-badge&logo=express&logoColor=white"/>
 <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
 <img src="https://img.shields.io/badge/Redis-DD0031?style=for-the-badge&logo=redis&logoColor=white"/>
 <img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white"/>
 <br><br>
-Production-grade DSA & interview prep platform with Monaco Editor, 1v1 real-time code duels (ELO-rated), AI mock interviews from resume PDFs, and an ATS resume analyzer using TF-IDF + Cosine Similarity NLP pipeline.
-<br><br>
+
+Production-grade DSA & interview prep platform built around four core systems:
+
+- ⚔️ **Real-Time 1v1 Code Duels Engine** — stateful multiplayer coding workspace (Express, Socket.io, Redis); transient match state (countdown timers, lobbies, live opponent progress) cached in-memory in Redis for sub-millisecond updates, with final match logs persisted to MongoDB only on duel termination to optimize DB scaling
+- 🤖 **Autonomous AI Code Review Agent** — self-correcting agent using the **ReAct** (Reasoning and Action) loop, wired to a **Judge0** sandboxed execution environment to run, diagnose & test user code, producing structured feedback on time/space complexity and architectural optimizations
+- 🎤 **Stateful AI Mock Interview Workspace** — adaptive interviewer powered by **OpenRouter (GPT-4o-mini)**; parses candidate profiles from PDF resumes, dynamically generates tailored behavioral/technical questions, and runs a grading state machine to score responses and issue custom follow-ups
+- 📄 **Custom NLP ATS Resume Analyzer** — local ATS matcher with hand-built **TF-IDF** vectorization + **Cosine Similarity** scoring; integrates Mozilla's `pdfjs-dist` via dynamic module loading to resolve ES Module compatibility inside the CommonJS backend
+
+<br>
 <a href="https://github.com/Alishaa1234/CodeArena" target="_blank">
 <img src="https://img.shields.io/badge/Code-000000?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
